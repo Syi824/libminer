@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Syi824/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Syi824/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to help you understand your libraries better,
@@ -29,7 +31,7 @@ library(libminer)
 lib_summary()
 #>                                                                                        Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/qp/c1dq6qxn1sjcnkfbktb4129c0000gq/T/RtmprugVer/temp_libpath21dc2fdcd9a8
+#> 2 /private/var/folders/qp/c1dq6qxn1sjcnkfbktb4129c0000gq/T/RtmprugVer/temp_libpath21dc5810354e
 #> 3                                                       /Users/syi/Library/R/arm64/4.3/library
 #>   n_packages
 #> 1         29
@@ -40,7 +42,7 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                        Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/qp/c1dq6qxn1sjcnkfbktb4129c0000gq/T/RtmprugVer/temp_libpath21dc2fdcd9a8
+#> 2 /private/var/folders/qp/c1dq6qxn1sjcnkfbktb4129c0000gq/T/RtmprugVer/temp_libpath21dc5810354e
 #> 3                                                       /Users/syi/Library/R/arm64/4.3/library
 #>   n_packages  lib_size
 #> 1         29  71350952
