@@ -19,3 +19,6 @@ lib_summary<- function() {
   names(pkg_df) <- c("Library", "n_packages")
   pkg_df
 }
+
+# if you have more than one function (helper functions) then
+# you would replicate what is above
